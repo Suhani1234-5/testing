@@ -1,0 +1,15 @@
+{
+  "name": "proofpr-test-repo",
+  "version": "1.0.0",
+  "description": "Minimal isolated repo for testing ProofPR's Reproducer Agent — no external services, no DB, no API keys.",
+  "main": "src/couponService.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.4.5"
+  }
+}
